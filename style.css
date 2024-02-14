@@ -1,0 +1,44 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    background-color:orangered;
+    display: flex;
+    padding: 15px;
+    color: white;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+h6 {
+    margin-top: 3px;
+}
+section, footer {
+    text-align: center;
+    background-color:rgb(4, 38, 106);
+    margin: 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px blue;
+}
+li {
+    list-style: none;
+}
+@media screen and (min-width:900px)
+ {
+ #Container {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+ } 
+ #AboutMe {
+    height: 190px;
+ }  
+}
+
+
